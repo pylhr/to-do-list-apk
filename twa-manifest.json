@@ -1,21 +1,18 @@
 {
-    "name": "To-Do List",
-    "short_name": "ToDo",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#4CAF50",
-    "iconUrl": [
-      {
-        "src": "/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "packageId": "com.example.todo",
+  "host": "https://to-do-list-apk.vercel.app/",
+  "name": "To-Do List",
+  "launcherName": "ToDo",
+  "startUrl": "/",
+  "themeColor": "#4CAF50",
+  "navigationColor": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "display": "standalone",
+  "statusBar": {
+    "color": "#4CAF50"
+  },
+  "iconUrl": "https://https://to-do-list-apk.vercel.app/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "enableNotifications": false,
+  "shortcuts": []
+}

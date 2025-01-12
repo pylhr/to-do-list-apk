@@ -1,18 +1,42 @@
 {
-  "packageId": "com.example.todo",
-  "host": "https://to-do-list-apk.vercel.app/",
+  "packageId": "app.vercel.to_do_list_apk.twa",
+  "host": "to-do-list-apk.vercel.app",
   "name": "To-Do List",
   "launcherName": "ToDo",
-  "startUrl": "/",
-  "themeColor": "#4CAF50",
-  "navigationColor": "#000000",
-  "backgroundColor": "#FFFFFF",
   "display": "standalone",
-  "statusBar": {
-    "color": "#4CAF50"
-  },
-  "iconUrl": "https://https://to-do-list-apk.vercel.app/icon-512x512.png",
+  "themeColor": "#4CAF50",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://to-do-list-apk.vercel.app/icon-512x512.png",
   "splashScreenFadeOutDuration": 300,
-  "enableNotifications": false,
-  "shortcuts": []
+  "signingKey": {
+    "path": "F:\\pylhr_projects\\to-do-list-apk\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://to-do-list-apk.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://to-do-list-apk.vercel.app/",
+  "minSdkVersion": 21,
+  "orientation": "any",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
 }
